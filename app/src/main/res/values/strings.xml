@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">Turismo_Turbo</string>
-
+    <string name="acercadetx">Turismo Turbo \nAplicación informativa sobre el turismo en turbo \nDesarrollada por William Gómez Ortega </string>
     <string name="hello_world">Hello world!</string>
+    <string name="acercade">Acerca de...</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_acercade"></string>
+    <string name="title_activity_hoteles">hoteles</string>
+    <string name="title_activity_bares">Bares</string>
+    <string name="title_activity_informacion">Informacion</string>
+    <string name="title_activity_demografia">Demografia</string>
+    <string name="hotel1tit">Hotel El Velero</string>
+    <string name="hotel1text">Es un hotel ubicado en el lugar para embarcarse a la region del Uraba Chocoano,
+        sus habitaciones son muy buenas como también su atención.</string>
 </resources>

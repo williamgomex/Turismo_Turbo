@@ -8,26 +8,30 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 
-public class Turismo_Turbo extends Activity {
-    ImageView portada;
-    Button acerca;
+public class Principal extends Activity {
+    Button turbom1;
+    Button turbom2;
+    Button turbom3;
+    Button turbom4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_turismo_turbo);
-        portada = (ImageView) findViewById(R.id.portada);
-        acerca = (Button) findViewById(R.id.acercab);
+        setContentView(R.layout.activity_principal);
+        turbom1 = (Button) findViewById(R.id.boton1);
+        turbom2 = (Button) findViewById(R.id.boton2);
+        turbom3 = (Button) findViewById(R.id.boton3);
+        turbom4 = (Button) findViewById(R.id.boton4);
+
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_turismo__turbo, menu);
+        getMenuInflater().inflate(R.menu.menu_principal, menu);
         return true;
     }
 
@@ -46,13 +50,23 @@ public class Turismo_Turbo extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void menufunction(View view){
-        Intent k = new Intent(this,Principal.class);
+    public void boton1function(View view){
+        Intent k = new Intent(this,Hoteles.class);
         startActivity(k);
     }
 
-    public void acercadeb(View view){
-        Intent k = new Intent(this,Acercade.class);
+    public void boton2function(View view){
+        Intent k = new Intent(this,Bares.class);
+        startActivity(k);
+    }
+
+    public void boton3function(View view){
+        Intent k = new Intent(this,Informacion.class);
+        startActivity(k);
+    }
+
+    public void boton4function(View view){
+        Intent k = new Intent(this,Demografia.class);
         startActivity(k);
     }
 }

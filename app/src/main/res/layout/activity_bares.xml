@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.williamgomez.turismo_turbo.Bares"
+    android:background="@color/black"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                style="@style/textviewtitle"
+                android:text="@string/hotel1tit"
+                />
+
+            <ImageView
+                style="@style/imagestyle"
+                android:src="@drawable/hotel1"/>
+
+
+            <LinearLayout
+                style="@style/linearlayoutv">
+
+                <TextView
+                    style="@style/textviewtext"
+                    android:text="@string/hotel1text"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/textviewtitle"
+                android:text="@string/hotel1tit"
+                />
+
+            <ImageView
+                style="@style/imagestyle"
+                android:src="@drawable/hotel1"/>
+
+
+            <LinearLayout
+                style="@style/linearlayoutv">
+
+                <TextView
+                    style="@style/textviewtext"
+                    android:text="@string/hotel1text"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/textviewtitle"
+                android:text="@string/hotel1tit"
+                />
+
+            <ImageView
+                style="@style/imagestyle"
+                android:src="@drawable/hotel1"/>
+
+
+            <LinearLayout
+                style="@style/linearlayoutv">
+
+                <TextView
+                    style="@style/textviewtext"
+                    android:text="@string/hotel1text"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
