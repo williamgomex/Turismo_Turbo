@@ -8,23 +8,24 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
 
 
             <TextView
                 style="@style/textviewtitle"
-                android:text="@string/hotel1tit"
+                android:text="@string/tur1tit"
+
                 />
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/katios"/>
 
 
             <LinearLayout
@@ -32,7 +33,7 @@
 
                 <TextView
                     style="@style/textviewtext"
-                    android:text="@string/hotel1text"
+                    android:text="@string/tur1text"
                     />
 
             </LinearLayout>
@@ -40,12 +41,14 @@
 
             <TextView
                 style="@style/textviewtitle"
-                android:text="@string/hotel1tit"
+                android:text="@string/tur2tit"
                 />
+
+
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/bahia"/>
 
 
             <LinearLayout
@@ -53,19 +56,19 @@
 
                 <TextView
                     style="@style/textviewtext"
-                    android:text="@string/hotel1text"
+                    android:text="@string/tur2text"
                     />
 
             </LinearLayout>
 
             <TextView
                 style="@style/textviewtitle"
-                android:text="@string/hotel1tit"
+                android:text="@string/tur3tit"
                 />
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/atratocorre"/>
 
 
             <LinearLayout
@@ -73,7 +76,7 @@
 
                 <TextView
                     style="@style/textviewtext"
-                    android:text="@string/hotel1text"
+                    android:text="@string/tur3text"
                     />
 
             </LinearLayout>

@@ -24,7 +24,7 @@
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/costasol"/>
 
 
             <LinearLayout
@@ -40,12 +40,12 @@
 
             <TextView
                 style="@style/textviewtitle"
-                android:text="@string/hotel1tit"
+                android:text="@string/hotel2tit"
                 />
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/castilla"/>
 
 
             <LinearLayout
@@ -53,19 +53,19 @@
 
                 <TextView
                     style="@style/textviewtext"
-                    android:text="@string/hotel1text"
+                    android:text="@string/hotel2text"
                     />
 
             </LinearLayout>
 
             <TextView
                 style="@style/textviewtitle"
-                android:text="@string/hotel1tit"
+                android:text="@string/hotel3tit"
                 />
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/simonadelmar"/>
 
 
             <LinearLayout
@@ -73,7 +73,7 @@
 
                 <TextView
                     style="@style/textviewtext"
-                    android:text="@string/hotel1text"
+                    android:text="@string/hotel3text"
                     />
 
             </LinearLayout>

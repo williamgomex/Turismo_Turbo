@@ -19,12 +19,12 @@
 
             <TextView
                 style="@style/textviewtitle"
-                android:text="@string/hotel1tit"
+                android:text="@string/demotit"
                 />
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/demografia"/>
 
 
             <LinearLayout
@@ -32,7 +32,27 @@
 
                 <TextView
                     style="@style/textviewtext"
-                    android:text="@string/hotel1text"
+                    android:text="@string/demotext"
+                    />
+                <TextView
+                    style="@style/textviewtext"
+                    android:text="@string/demo1text"
+                    />
+                <TextView
+                    style="@style/textviewtext"
+                    android:text="@string/demo2text"
+                    />
+                <TextView
+                    style="@style/textviewtext"
+                    android:text="@string/demo3text"
+                    />
+                <TextView
+                    style="@style/textviewtext"
+                    android:text="@string/demo4text"
+                    />
+                <TextView
+                    style="@style/textviewtext"
+                    android:text="@string/demo5text"
                     />
 
             </LinearLayout>

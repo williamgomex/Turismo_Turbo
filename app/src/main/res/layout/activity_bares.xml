@@ -19,12 +19,12 @@
 
             <TextView
                 style="@style/textviewtitle"
-                android:text="@string/hotel1tit"
+                android:text="@string/bar1tit"
                 />
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/tilipias"/>
 
 
             <LinearLayout
@@ -32,7 +32,7 @@
 
                 <TextView
                     style="@style/textviewtext"
-                    android:text="@string/hotel1text"
+                    android:text="@string/bar1text"
                     />
 
             </LinearLayout>
@@ -40,12 +40,12 @@
 
             <TextView
                 style="@style/textviewtitle"
-                android:text="@string/hotel1tit"
+                android:text="@string/bar2tit"
                 />
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/discotecaextasis"/>
 
 
             <LinearLayout
@@ -53,19 +53,19 @@
 
                 <TextView
                     style="@style/textviewtext"
-                    android:text="@string/hotel1text"
+                    android:text="@string/bar2text"
                     />
 
             </LinearLayout>
 
             <TextView
                 style="@style/textviewtitle"
-                android:text="@string/hotel1tit"
+                android:text="@string/bar3tit"
                 />
 
             <ImageView
                 style="@style/imagestyle"
-                android:src="@drawable/hotel1"/>
+                android:src="@drawable/simona"/>
 
 
             <LinearLayout
@@ -73,7 +73,7 @@
 
                 <TextView
                     style="@style/textviewtext"
-                    android:text="@string/hotel1text"
+                    android:text="@string/bar3text"
                     />
 
             </LinearLayout>
